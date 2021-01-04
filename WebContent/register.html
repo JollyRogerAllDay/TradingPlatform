@@ -1,0 +1,110 @@
+<!DOCTYPE HTML >
+<html>
+	<head>
+		<title>Register</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css" />
+		<script type="text/javascript" src="javascript.js"></script>
+		<script type="text/javascript">
+			function testPass()
+			{
+				var pass1 = document.getElementById("password").value;
+				var pass2 = document.getElementById("password2").value;
+				if(pass1 == pass2)
+				{
+					return true;
+				}
+				else
+				{
+					document.getElementById("errorMessage").innerHTML = "Passwords do not match."
+					return false;
+				}
+			}
+			
+			function testFields()
+			{
+				var username = document.getElementById("username").value;
+				var password = document.getElementById("password").value;
+				if(username =='' || password =='')
+				{
+					document.getElementById("errorMessage").innerHTML = "Please enter a username and password.";
+					return false;
+				}
+				else
+				{
+					return true;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="main">
+			<div id="page_title">
+			<a href="/home"><img id="title_img" src="images/fdm_banner.PNG"/></a>
+				<div id="page_title_subtitle"> 
+			
+							
+						<b>Login of Trading Platform</b>
+						<form id="form1" method="post" action="login">
+							Username:
+						<input type="text" size="10" name="username"/>
+						<br/>
+							Password:
+						<input type="password" size="10" maxlength="16" name="password" onclick="highlight(this)"/>
+						<Button id="login_button" class="button" onmouseover="mouseOverButton(this);" onmouseout="mouseOutButton(this);">Login</Button>
+						<br/>
+					</form> 
+				</div>  
+			</div>
+			
+			<div id="main_content">
+				<h1>New User Registration</h1>
+				<form id="form1" method="post" action="RegisterServlet" onSubmit="return !!(testPass() & testFields())">
+					<table>
+					<tr>
+						<td>
+							Username:
+						</td>
+						<td>
+							<input type="text" size="10" name="username" id="username"/>
+						</td>
+					</tr>	
+					<tr>
+						<td>
+							Password:
+						</td>
+						<td>
+							<input type="text" size="10" maxlength="16" name="password" id="password" onclick="highlight(this)"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							Confirm Password:
+						</td>
+						<td>
+							<input type="text" size="10" maxlength="16" name="password2" id="password2" onclick="highlight(this)"/>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							User Type:
+						</td>
+						<td>
+							<select name="type">
+							  <option value="BROKER">BROKER</option>
+							  <option value="SHAREHOLDER">SHAREHOLDER</option>
+							  <option value="BROKER_SHAREHOLDER">BROKER_SHAREHOLDER</option>
+							  <option value="SYSADMIN">SYSADMIN</option>
+							</select>
+						</td>
+					</tr>
+					</table>
+					<Button id="submit_button" class="button" onclick="testPass(); testFields();" onmouseover="mouseOverButton(this);" onmouseout="mouseOutButton(this);">Submit</Button>
+				</form>
+				<p id="errorMessage" style="color:red">
+				</p> 
+			 </div>
+		</div><!-- main-->
+	</body>
+</html>
+
+

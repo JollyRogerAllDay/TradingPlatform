@@ -1,0 +1,175 @@
+html
+{
+	height:100%;
+}
+
+
+body
+{
+	background: -webkit-linear-gradient(#FFFFFF, #88a5f5); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FFFFFF, #88a5f5); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FFFFFF, #88a5f5); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FFFFFF, #88a5f5); /* Standard syntax */
+	background-attachment:fixed;
+	min-height:99%;
+	width:99%;
+	position: absolute;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif
+}
+
+
+a:link {
+color: #5981f1;
+}
+
+a:visited {
+color: #5981f1;
+}
+
+
+h1.title
+{
+	border-width: 2px;
+	float:left;
+	margin-top:-10px;
+	padding-top: -10px;
+}
+
+.button
+{
+	background-color:#7193f3;
+	border-style: outset;
+	border-width: 1px;
+	border-color: #5981f1;
+}
+
+#title_img
+{
+	float:left;
+	border-style:none;
+}
+
+#main
+{
+	position: absolute;
+	height: auto;
+	/*width: 70%;*/
+	width: 1050px;
+	background-color: #88a5f5;
+	padding: 10px 10px 10px 10px;
+	/*border-style:solid;
+	border-width: 2px;
+	 border-color: #5981f1;*/
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 25px;
+}
+
+#page_title
+{
+	position: static;
+	background-color: #FFFFFF;
+	border-width:2px;
+	border-style:solid;
+	border-color: #0a287b;
+	color:#0a287b;
+	overflow: auto;
+	font-size: small;
+	
+}
+
+#page_title_subtitle
+{
+	position:static;
+	padding-top: 15px;
+	margin-left: 10px;
+	left:20px;
+}
+
+#login_table
+{
+	width:300px;
+	border-width: 1;
+	padding:0;
+}
+
+#main_content
+{
+	background-color: #7193f3;
+	width:1026px;
+	height:600px;
+	margin-top: 10px;
+	padding: 10px 10px 10px 10px;
+	margin-left:auto;
+	margin-right:auto;
+	border-style:solid;
+	border-width: 2px;
+	border-color: #5981f1;
+
+}
+
+.p_content
+{
+	 width:75%; 
+	 margin-left:auto;
+	 margin-right:auto	
+}
+
+
+#trade_table
+{
+	padding:2px;
+	border-width: 1px;
+	border-color: #0a287b;
+	border-collapse: collapse;
+}
+
+#login
+{
+	float:left;
+}
+
+#footer
+{
+	position: relative;
+	float: bottom;
+	height:10px;
+	width: 1050px;
+	font-size: x-small;
+	background-color: #7193f3;
+	padding: 10px 10px 10px 10px;
+	margin-left:15%;
+	margin-right:15%;
+	margin-top: 25px;
+}
+
+.nav_menu
+{
+	align:center;
+	background-color: #0a287b;
+	width:200px;
+	padding:4px 4px 4px 4px;
+	color:white;
+	float:left;
+}
+
+.nav_button
+{
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#7193f3;
+	border-style: outset;
+	border-width: 1px;
+	border-color: #5981f1;
+	width:100%;
+}
+
+
+#contentarea
+{
+	width:750px;
+	float:right;
+}
+
+
+

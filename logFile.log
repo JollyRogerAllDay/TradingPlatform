@@ -1,0 +1,237 @@
+2014-06-10 08:41:34 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 08:41:35 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 08:41:35 INFO  Shareholder:44 - shareholder=noUsername was created.
+2014-06-10 08:41:36 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 08:41:36 INFO  Shareholder:44 - shareholder=banUser was created.
+2014-06-10 08:41:37 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 08:41:37 INFO  Shareholder:44 - shareholder=banUser was created.
+2014-06-10 08:41:37 ERROR LogFile:29 - shareholder=banUser unable to insert into user table.
+2014-06-10 08:41:37 INFO  Shareholder:44 - shareholder=banUser was created.
+2014-06-10 08:41:38 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 08:41:38 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 08:41:39 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 08:41:39 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 08:41:40 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 08:41:41 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 08:41:41 INFO  Shareholder:44 - shareholder=userToUpdate was created.
+2014-06-10 08:41:42 TRACE Broker:34 - broker=broker was created.
+2014-06-10 08:41:42 ERROR LogFile:29 - There was an error trying to update "userToUpdate" to the table.
+2014-06-10 08:41:43 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 08:41:43 INFO  Shareholder:44 - shareholder=user2 was created.
+2014-06-10 08:41:43 ERROR LogFile:29 - shareholder=user2 unable to insert into user table.
+2014-06-10 18:07:00 TRACE SystemAdmin:34 - system admin- admin was created.
+2014-06-10 18:07:00 TRACE SystemAdmin:34 - system admin- admin was created.
+2014-06-10 18:07:01 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:07:01 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:07:01 INFO  SystemAdmin:44 - Bob was added to the user list.
+2014-06-10 18:07:01 TRACE SystemAdmin:34 - system admin- admin was created.
+2014-06-10 18:07:01 INFO  Shareholder:44 - shareholder=aUser was created.
+2014-06-10 18:10:13 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:10:13 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:10:13 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:10:13 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:11:46 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:11:47 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:11:48 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:11:49 TRACE Broker:34 - broker=Steve was created.
+2014-06-10 18:11:50 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:11:50 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:50 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:51 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:11:51 WARN  Shareholder:24 - shareholder=Mary unable to request Trade(ID=0, MSFT, 5, SELL, Mary) with Bob. Trade is not of type buy.
+2014-06-10 18:11:51 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:51 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:52 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:11:52 WARN  Shareholder:24 - shareholder=Mary unable to request Trade(ID=0, MSFT, 5, BUY, Mary) with Bob. Trade is not of type sell.
+2014-06-10 18:11:52 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:52 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:52 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:11:52 INFO  Shareholder:44 - shareholder=Mary unable to request Trade(ID=0, MSFT, 5, SELL, Mary) with Bob. Insufficient number of shares available in portfolio.
+2014-06-10 18:11:52 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:52 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:53 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:11:53 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:53 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:54 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:11:54 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:54 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:55 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:11:55 WARN  Shareholder:24 - shareholder=Mary unable to request Trade(ID=0, MSFT, 5, BUY, Mary) with Bob. Trade is not of type sell.
+2014-06-10 18:11:55 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:55 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:56 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:11:56 INFO  Shareholder:44 - shareholder=Mary requested to sell Trade(ID=0, MSFT, 5, SELL, Mary) with Bob
+2014-06-10 18:11:56 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:56 INFO  Shareholder:44 - shareholder=Mary was created.
+2014-06-10 18:11:57 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:11:57 INFO  Shareholder:44 - shareholder=Mary requested to buy Trade(ID=0, MSFT, 5, BUY, Mary) with Bob
+2014-06-10 18:11:59 TRACE SystemAdmin:34 - system admin- admin was created.
+2014-06-10 18:11:59 TRACE SystemAdmin:34 - system admin- admin was created.
+2014-06-10 18:11:59 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:11:59 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:11:59 ERROR LogFile:29 - shareholder=Bob unable to insert into user table.
+2014-06-10 18:11:59 INFO  SystemAdmin:44 - Bob faied to be added to the user list.
+2014-06-10 18:11:59 TRACE SystemAdmin:34 - system admin- admin was created.
+2014-06-10 18:11:59 INFO  Shareholder:44 - shareholder=aUser was created.
+2014-06-10 18:12:00 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 18:12:01 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 18:12:01 INFO  Shareholder:44 - shareholder=noUsername was created.
+2014-06-10 18:12:02 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 18:12:02 INFO  Shareholder:44 - shareholder=banUser was created.
+2014-06-10 18:12:02 ERROR LogFile:29 - shareholder=banUser unable to insert into user table.
+2014-06-10 18:12:03 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 18:12:03 INFO  Shareholder:44 - shareholder=banUser was created.
+2014-06-10 18:12:03 ERROR LogFile:29 - shareholder=banUser unable to insert into user table.
+2014-06-10 18:12:03 INFO  Shareholder:44 - shareholder=banUser was created.
+2014-06-10 18:12:04 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 18:12:04 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 18:12:05 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 18:12:06 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 18:12:06 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 18:12:07 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 18:12:07 INFO  Shareholder:44 - shareholder=userToUpdate was created.
+2014-06-10 18:12:08 TRACE Broker:34 - broker=broker was created.
+2014-06-10 18:12:09 ERROR LogFile:29 - There was an error trying to update "userToUpdate" to the table.
+2014-06-10 18:12:09 INFO  Shareholder:44 - shareholder=user was created.
+2014-06-10 18:12:09 INFO  Shareholder:44 - shareholder=user2 was created.
+2014-06-10 18:12:10 ERROR LogFile:29 - shareholder=user2 unable to insert into user table.
+2014-06-10 18:12:10 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:10 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:11 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:11 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:12 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:12 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:13 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:13 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:14 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:14 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:15 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:15 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:15 INFO  Shareholder:44 - shareholder=Stan was created.
+2014-06-10 18:12:15 INFO  Shareholder:44 - shareholder=Lee was created.
+2014-06-10 18:12:16 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:16 INFO  Shareholder:44 - shareholder=Stan requested to buy Trade(ID=0, GOOG, 2, BUY, Stan) with Bob
+2014-06-10 18:12:16 INFO  Shareholder:44 - shareholder=Lee requested to sell Trade(ID=0, GOOG, 2, SELL, Lee) with Bob
+2014-06-10 18:12:16 INFO  Shareholder:44 - shareholder=Stan requested to buy Trade(ID=0, MSFT, 4, BUY, Stan) with Bob
+2014-06-10 18:12:16 INFO  Shareholder:44 - shareholder=Lee requested to sell Trade(ID=0, MSFT, 4, SELL, Lee) with Bob
+2014-06-10 18:12:17 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:17 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:17 INFO  Broker:44 - broker=Bob added a new Trade(ID=0, GOOG, 2, BUY, Mike) to their buy list.
+2014-06-10 18:12:18 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:18 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:18 INFO  Shareholder:44 - shareholder=Stan was created.
+2014-06-10 18:12:18 INFO  Shareholder:44 - shareholder=Lee was created.
+2014-06-10 18:12:19 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:19 INFO  Shareholder:44 - shareholder=Stan requested to buy Trade(ID=0, GOOG, 2, BUY, Stan) with Bob
+2014-06-10 18:12:19 INFO  Shareholder:44 - shareholder=Lee requested to sell Trade(ID=0, GOOG, 2, SELL, Lee) with Bob
+2014-06-10 18:12:20 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:20 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:21 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:21 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:21 INFO  Shareholder:44 - shareholder=Stan was created.
+2014-06-10 18:12:21 INFO  Shareholder:44 - shareholder=Lee was created.
+2014-06-10 18:12:22 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:22 INFO  Shareholder:44 - shareholder=Stan requested to buy Trade(ID=0, GOOG, 2, BUY, Stan) with Bob
+2014-06-10 18:12:22 INFO  Shareholder:44 - shareholder=Lee requested to sell Trade(ID=0, GOOG, 2, SELL, Lee) with Bob
+2014-06-10 18:12:23 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:23 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:23 INFO  Shareholder:44 - shareholder=Steve was created.
+2014-06-10 18:12:24 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:24 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:24 INFO  Broker:44 - broker=Bob added a new Trade(ID=0, GOOG, 2, SELL, Mike) to their sell list.
+2014-06-10 18:12:25 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:25 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:26 TRACE Broker:34 - broker=doesNotExist was created.
+2014-06-10 18:12:27 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:27 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:28 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:28 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:28 INFO  Broker:44 - broker=Bob added a new Trade(ID=0, GOOG, 2, BUY, Mike) to their buy list.
+2014-06-10 18:12:28 INFO  Broker:44 - broker=Bob added a new Trade(ID=0, GOOG, 2, SELL, Mike) to their sell list.
+2014-06-10 18:12:29 TRACE Broker:34 - broker=Bob was created.
+2014-06-10 18:12:29 INFO  Shareholder:44 - shareholder=Mike was created.
+2014-06-10 18:12:29 INFO  Broker:44 - broker=Bob added a new Trade(ID=0, GOOG, 1, SELL, Mike) to their sell list.
+2014-06-10 18:12:31 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:12:32 TRACE Broker:34 - broker=BrokerBill was created.
+2014-06-10 18:12:32 TRACE Broker:34 - broker=BrokerBob was created.
+2014-06-10 18:12:32 INFO  Shareholder:44 - shareholder=ShareholderStan was created.
+2014-06-10 18:12:33 ERROR LogFile:29 - Unable to store Trade(ID=0, GOOG, 10, BUY, ShareholderStan) request in table.
+2014-06-10 18:12:35 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:12:36 TRACE Broker:34 - broker=BrokerBill was created.
+2014-06-10 18:12:36 ERROR LogFile:29 - shareholder=Bob unable to insert into user table.
+2014-06-10 18:12:36 ERROR LogFile:29 - Unable to store Trade(ID=0, GOOG, 10, BUY, Bob) request in table.
+2014-06-10 18:12:38 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:12:39 TRACE Broker:34 - broker=BrokerBill was created.
+2014-06-10 18:12:39 ERROR LogFile:29 - broker=BrokerBill unable to insert into user table.
+2014-06-10 18:12:39 ERROR LogFile:29 - shareholder=Bob unable to insert into user table.
+2014-06-10 18:12:40 ERROR LogFile:29 - Unable to insert Bob has request RESET_PASSWORD for admin null into user_request table.
+2014-06-10 18:12:41 ERROR LogFile:29 - Unable to insert Bob has request RESET_PASSWORD for admin null into user_request table.
+2014-06-10 18:12:42 ERROR LogFile:29 - Unable to remove DeleteMe has request CHANGE_USERNAME for admin nullfrom user_request table.
+2014-06-10 18:12:43 INFO  Shareholder:44 - shareholder=bob7 was created.
+2014-06-10 18:12:44 TRACE Broker:34 - broker=noname was created.
+2014-06-10 18:12:44 TRACE SystemAdmin:34 - system admin- jerry was created.
+2014-06-10 18:12:45 TRACE Broker:34 - broker=joe5 was created.
+2014-06-10 18:12:45 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:12:45 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:12:45 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:12:45 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:12:47 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-10 18:12:48 TRACE Broker:34 - broker=brokeUser was created.
+2014-06-10 18:12:48 TRACE SystemAdmin:34 - system admin- adminUser was created.
+2014-06-10 18:12:48 INFO  Shareholder:44 - shareholder=testUser was created.
+2014-06-10 18:12:49 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-10 18:12:49 INFO  LogFile:44 - shareholder=shareUser logged on.
+2014-06-10 18:12:49 INFO  Shareholder:44 - shareholder=shareUser logged on.
+2014-06-10 18:19:52 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:19:52 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:19:52 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:19:52 INFO  Shareholder:44 - shareholder=Bob was created.
+2014-06-10 18:20:09 ERROR LogFile:29 - Unable to remove DeleteMe has request CHANGE_USERNAME for admin adminfrom user_request table.
+2014-06-11 12:09:39 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:09:40 TRACE Broker:34 - broker=brokeUser was created.
+2014-06-11 12:09:40 TRACE SystemAdmin:34 - system admin- adminUser was created.
+2014-06-11 12:09:40 INFO  Shareholder:44 - shareholder=testUser was created.
+2014-06-11 12:09:41 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:09:41 INFO  LogFile:44 - shareholder=shareUser logged on.
+2014-06-11 12:09:41 INFO  Shareholder:44 - shareholder=shareUser logged on.
+2014-06-11 12:09:43 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:09:44 TRACE Broker:34 - broker=brokeUser was created.
+2014-06-11 12:09:44 TRACE SystemAdmin:34 - system admin- adminUser was created.
+2014-06-11 12:09:44 INFO  Shareholder:44 - shareholder=testUser was created.
+2014-06-11 12:10:28 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:10:29 TRACE Broker:34 - broker=brokeUser was created.
+2014-06-11 12:10:29 TRACE SystemAdmin:34 - system admin- adminUser was created.
+2014-06-11 12:10:29 INFO  Shareholder:44 - shareholder=testUser was created.
+2014-06-11 12:10:31 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:10:32 TRACE Broker:34 - broker=brokeUser was created.
+2014-06-11 12:10:32 TRACE SystemAdmin:34 - system admin- adminUser was created.
+2014-06-11 12:10:32 INFO  Shareholder:44 - shareholder=testUser was created.
+2014-06-11 12:13:25 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:13:25 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:13:25 INFO  LogFile:44 - shareholder=shareUser logged on.
+2014-06-11 12:13:25 INFO  Shareholder:44 - shareholder=shareUser logged on.
+2014-06-11 12:13:26 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:13:27 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:13:27 INFO  LogFile:44 - shareholder=shareUser logged on.
+2014-06-11 12:13:27 INFO  Shareholder:44 - shareholder=shareUser logged on.
+2014-06-11 12:13:27 INFO  LogFile:44 - shareholder=shareUser logged off.
+2014-06-11 12:14:31 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:14:32 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:14:32 INFO  LogFile:44 - shareholder=shareUser logged on.
+2014-06-11 12:14:32 INFO  Shareholder:44 - shareholder=shareUser logged on.
+2014-06-11 12:14:33 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:14:33 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:14:33 INFO  LogFile:44 - shareholder=shareUser logged on.
+2014-06-11 12:14:33 INFO  Shareholder:44 - shareholder=shareUser logged on.
+2014-06-11 12:14:33 INFO  LogFile:44 - shareholder=shareUser logged off.
+2014-06-11 12:18:22 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:18:23 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:18:23 INFO  LogFile:44 - shareholder=shareUser logged on.
+2014-06-11 12:18:23 INFO  Shareholder:44 - shareholder=shareUser logged on.
+2014-06-11 12:18:24 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:18:25 TRACE Broker:34 - broker=testUser was created.
+2014-06-11 12:18:27 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:18:27 INFO  Shareholder:44 - shareholder=shareUser was created.
+2014-06-11 12:18:27 INFO  LogFile:44 - shareholder=shareUser logged on.
+2014-06-11 12:18:27 INFO  Shareholder:44 - shareholder=shareUser logged on.
+2014-06-11 12:18:27 INFO  LogFile:44 - shareholder=shareUser logged off.
